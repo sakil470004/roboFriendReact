@@ -15,9 +15,14 @@
  example
  "homepage": "https://sakil470004.github.io/roboFriendReact",
 
-#cmd for live 
+# cmd for live
+
+  445  npm install --save gh-pages
+
   455  git remote add origin git@github.com:sakil470004/roboFriendReact.git
+  
   456  git push -u origin main
+  
   457  npm run deploy 
 
 # Getting Started with Create React App
