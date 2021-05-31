@@ -1,0 +1,13 @@
+.search-div {
+padding: 10px;
+text-align: center;
+
+}
+
+.search-input {
+padding: 15px;
+background: lightblue;
+border-radius: 30%;
+/* border:solid black 0px; */
+/* border-color: white; */
+}

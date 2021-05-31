@@ -1,0 +1,50 @@
+
+
+.background-div {
+    background: #90ee90;
+    padding: 3px;
+    margin: 20px;
+    border-radius: 5%;
+    transition: all 0.2s linear;
+    font-size: 1.5em;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.background-div:hover {
+    background: #7ae96c;
+
+}
+
+.background-div h2 {
+    font-family: 'SEGA LOGO FONT';
+    font-weight: 200;
+    transition: all 0.2s linear;
+}
+
+.background-div h2:hover {
+    font-weight: 400;
+    color: lightyellow;
+}
+
+.background-div p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.background-div p:hover {
+    font-weight: 400;
+    color: lightyellow;
+}
+
+.background-div:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    cursor: pointer;
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+    border: 3px solid #68e468;
+}
