@@ -1,3 +1,22 @@
+#live link
+https://sakil470004.github.io/roboFriendReact/
+
+#change to package.json
+
+ ##1-change ... add in scripts
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+ ##2 change after in the name add the line
+ 
+ "homepage": "https://username.github.io/repo-name",
+ example
+ "homepage": "https://sakil470004.github.io/roboFriendReact",
+
+#cmd for live 
+  455  git remote add origin git@github.com:sakil470004/roboFriendReact.git
+  456  git push -u origin main
+  457  npm run deploy 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
