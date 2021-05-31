@@ -1,12 +1,15 @@
-#live link
-https://sakil470004.github.io/roboFriendReact/
+# live link
 
-#change to package.json
+ https://sakil470004.github.io/roboFriendReact/
 
- ##1-change ... add in scripts
+# change to package.json
+
+ ## 1-change ... add in scripts
+ 
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
- ##2 change after in the name add the line
+  
+ ## 2 change after in the name add the line
  
  "homepage": "https://username.github.io/repo-name",
  example
